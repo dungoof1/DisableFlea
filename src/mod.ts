@@ -15,7 +15,7 @@ class Mod implements IPostDBLoadMod
         const tables: IDatabaseTables = databaseServer.getTables();
         const globals = tables.globals.config;
 
-        globals.RagFair.enabled = false;
+        globals.RagFair.minUserLevel = 99;
     }
 }
 
